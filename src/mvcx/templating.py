@@ -7,8 +7,7 @@ from lucide.jinja import lucide
 from starlette.background import BackgroundTask
 from starlette.templating import Jinja2Templates
 
-from mvcx.requests import Request
-from mvcx.responses import Html
+from mvcx.http import Html, Request
 
 __all__ = ["Templates", "render_template"]
 

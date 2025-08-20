@@ -1,5 +1,4 @@
-from mvcx.requests import Request
-from mvcx.responses import Html
+from mvcx.http import Html, Request
 from mvcx.templating import render_template
 from mvcx.views import View
 
