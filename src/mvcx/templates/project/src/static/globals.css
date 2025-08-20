@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  @apply transition-colors dark:bg-gray-950 dark:text-white;
+}
+
+@import "./components/button/button.css";

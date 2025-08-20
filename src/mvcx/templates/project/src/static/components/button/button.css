@@ -1,0 +1,7 @@
+@utility btn {
+  @apply cursor-pointer transition;
+}
+
+@utility btn-icon {
+  @apply aspect-square w-max rounded-full p-2 hover:bg-black/20 dark:hover:bg-white/20;
+}

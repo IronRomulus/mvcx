@@ -1,0 +1,7 @@
+<button is="c-theme-controller" class="btn btn-icon">
+  {% if cookies.theme == "dark" %}
+    {{ lucide("moon") }}
+  {% else %}
+    {{ lucide("sun") }}
+  {% endif %}
+</button>

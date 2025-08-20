@@ -1,0 +1,13 @@
+<header class="flex items-center justify-between p-2 md:p-4">
+  <a
+    is="c-link"
+    href="{{ path_for('WelcomeView.get') }}"
+    class="text-3xl font-bold"
+  >
+    MVCX
+  </a>
+
+  <div class="flex items-center gap-4">
+    {% include 'components/theme_controller.html' %}
+  </div>
+</header>
